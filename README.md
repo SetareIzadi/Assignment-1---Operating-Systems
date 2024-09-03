@@ -1,0 +1,1 @@
+This project implements a simple program that stores numbers based on commands received from the command line via standard input (stdin). The purpose is to refresh C programming skills and introduce system call semantics by using Unix read and write system calls directly.
