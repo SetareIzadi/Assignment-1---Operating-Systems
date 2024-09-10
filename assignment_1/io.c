@@ -33,6 +33,7 @@ int write_char(char c) {
 int write_string(char* s) {
   ssize_t length = 0;
 
+
   while (s[length] != '\0') {
     length++;
   }
