@@ -47,9 +47,25 @@ void remove_last_node(Node** head) {
     }
 
     free(last);  // Free the memory of the removed node
-    return 0;
+
 }
 
+// Function to print the collection using read and write from #Task 1
+void print_collection(Node* head) {
+    Node* current = head;
+    int first = 1;  // Used to manage the commas between integers
+    while (current != NULL) {
+        if (!first) {
+            write_char(',');  // Add a comma after the first element
+        }
+        write_int(current->data);  // Print the integer value
+        first = 0;
+        current = current->next;
+    }
+    write_char(';');  // End with a semicolon
+    write_char('\n');  // Newline after semicolon
+}
+return 0; 
 
 
 
