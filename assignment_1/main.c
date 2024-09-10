@@ -1,6 +1,7 @@
 
 /* You are not allowed to use <stdio.h> */
 #include "io.h"
+#include <stdlib.h>
 
 // Using a double linked list for the data structure 
 typedef struct Node {
@@ -8,6 +9,49 @@ typedef struct Node {
     struct Node* next;
     struct Node* prev;
 } Node;
+
+// Function to add a node to the end of the list
+void add_to_end(Node** head, int value) {
+    Node* new_node = (Node*) malloc(sizeof(Node));
+    new_node->data = value;
+    new_node->next = NULL;
+
+    if (*head == NULL) {
+        new_node->prev = NULL;
+        *head = new_node;
+    } else {
+        Node* last = *head;
+        while (last->next != NULL) {
+            last = last->next;
+        }
+        last->next = new_node;
+        new_node->prev = last;
+    }
+}
+
+// Function to remove the last node from the list
+void remove_last_node(Node** head) {
+    if (*head == NULL) {
+        return;  // If the list is empty, do nothing
+    }
+
+    Node* last = *head;
+    while (last->next != NULL) {
+        last = last->next;
+    }
+
+    if (last->prev != NULL) {
+        last->prev->next = NULL;  // Adjust the second-to-last node
+    } else {
+        *head = NULL;  // If there was only one node, the list is now empty
+    }
+
+    free(last);  // Free the memory of the removed node
+    return 0;
+}
+
+
+
 
 /**
  * @name  main
@@ -18,27 +62,6 @@ typedef struct Node {
  * Then it has a place for you to implementation the command 
  * interpreter as  specified in the handout.
  */
-int
-main()
-{
-  /*-----------------------------------------------------------------
-   *TODO:  You need to implement the command line driver here as
-   *       specified in the assignment handout.
-   *
-   * The following pseudo code describes what you need to do
-   *  
-   *  Declare the counter and the collection structure variables
-   *
-   *
-   *  In a loop
-   *    1) Read a command from standard in using read_char function
-   *    2) If the command is not 'a', 'b', 'c': then break the loop
-   *    3) Process the command as specified in the handout
-   *  End loop
-   *
-   *  Print your collection of elements as specified in the handout
-   *    as a comma delimited series of integers
-   *-----------------------------------------------------------------*/
 
-  return 0;
-}
+
+
