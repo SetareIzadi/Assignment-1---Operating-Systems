@@ -2,6 +2,12 @@
 /* You are not allowed to use <stdio.h> */
 #include "io.h"
 
+// Using a double linked list for the data structure 
+typedef struct Node {
+    int data;
+    struct Node* next;
+    struct Node* prev;
+} Node;
 
 /**
  * @name  main
