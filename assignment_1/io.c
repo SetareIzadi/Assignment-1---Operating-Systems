@@ -4,7 +4,6 @@
 #include "io.h"
 
 
-
 /* Reads next char from stdin. If no more characters, it returns EOF */
 int read_char() {
 
