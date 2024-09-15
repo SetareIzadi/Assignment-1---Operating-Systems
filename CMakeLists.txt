@@ -8,5 +8,5 @@ include_directories(assignment_1)
 add_executable(Assignment_1___Operating_Systems
     assignment_1/io.c
     assignment_1/io.h
-    assigntment_1/main.c)
-#Removed io_demo.c to only have one main function while running
+    assignment_1/io_demo.c)
+#Removed main.c to only have one main function while running
