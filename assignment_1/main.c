@@ -15,6 +15,15 @@
 int
 main()
 {
+    //create a counter variable
+int count = 0;
+char c;
+
+do{
+
+}
+
+
   /*-----------------------------------------------------------------
    *TODO:  You need to implement the command line driver here as
    *       specified in the assignment handout.
