@@ -1,0 +1,3 @@
+/Users/kasparasm/Desktop/3. semester/Operativsystemer/Week 1/Assignment-1---Operating-Systems/cmake-build-debug/CMakeFiles/Assignment_1___Operating_Systems.dir
+/Users/kasparasm/Desktop/3. semester/Operativsystemer/Week 1/Assignment-1---Operating-Systems/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kasparasm/Desktop/3. semester/Operativsystemer/Week 1/Assignment-1---Operating-Systems/cmake-build-debug/CMakeFiles/rebuild_cache.dir
