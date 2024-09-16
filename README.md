@@ -26,6 +26,23 @@ This project is a simple command-line program written in C that stores numbers b
    
 `make`
 
+## Project Files and Features
+
+### Branch: `task-1`
+- **io.h**: Prototypes and definitions for reading and writing without `<stdio.h>`.
+- **io.c**: Implementations of functions using system calls from `<unistd.h>`.
+- **io_demo.c**: Demonstration program to test I/O functions.
+- **Makefile**: Build script for compiling the program.
+
+### Branch: `task-2`
+- **main.c**: Command interpreter that processes commands:
+    - **'a'**: Add counter value to collection, increment counter.
+    - **'b'**: Increment counter without adding to collection.
+    - **'c'**: Remove the most recent element from the collection, increment counter.
+    - **Any other character**: Stop processing, print collection, and exit.
+- **Makefile**: Build script for compiling the program.
+- **test.sh**: Bash script for testing the command interpreter.
+
 ### Running the Program:
 Execute the program and provide commands via stdin.
 `./main`

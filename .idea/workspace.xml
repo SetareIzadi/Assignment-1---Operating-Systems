@@ -22,12 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ef8389e-7256-43b3-9afb-780e46747a92" name="Changes" comment="merger ind i task 2">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_1/cmd_int" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/cmd_int" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_1/io.o" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/io.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_1/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/main.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
