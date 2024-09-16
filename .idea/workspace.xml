@@ -6,6 +6,9 @@
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -18,9 +21,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ef8389e-7256-43b3-9afb-780e46747a92" name="Changes" comment="">
+    <list default="true" id="8ef8389e-7256-43b3-9afb-780e46747a92" name="Changes" comment="merger ind i task 2">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_1/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_1/cmd_int" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/cmd_int" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_1/io.o" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/io.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_1/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/main.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +41,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SetareIzadi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SetareIzadi/Assignment-1---Operating-Systems.git",
+    "accountId": "d8ef88f7-88ca-4b47-81a9-2caa3145fd34"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -62,7 +81,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "task2Sarah",
+    "git-widget-placeholder": "task-2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,7 +90,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Makefile Target.test">
+  <component name="RunManager" selected="Makefile Target.run">
     <configuration name="run-demo" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/assignment_1/Makefile" target="run-demo" workingDirectory="" arguments="">
         <envs />
@@ -92,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Makefile Target.test" />
         <item itemvalue="Makefile Target.run" />
+        <item itemvalue="Makefile Target.test" />
         <item itemvalue="Makefile Target.run-demo" />
       </list>
     </recent_temporary>
@@ -108,6 +127,15 @@
       <updated>1726136921605</updated>
       <workItem from="1726136922645" duration="596000" />
     </task>
+    <task id="LOCAL-00001" summary="merger ind i task 2">
+      <option name="closed" value="true" />
+      <created>1726484626046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726484626046</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +145,10 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merger ind i task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="merger ind i task 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
