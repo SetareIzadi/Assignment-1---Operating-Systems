@@ -20,7 +20,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ef8389e-7256-43b3-9afb-780e46747a92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_1/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_1/test.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "CMake Application.Assignment_1___Operating_Systems.executor": "Run",
     "Makefile Target.run-demo.executor": "Run",
     "Makefile Target.run.executor": "Run",
+    "Makefile Target.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -70,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Makefile Target.run">
+  <component name="RunManager" selected="Makefile Target.test">
     <configuration name="run-demo" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/assignment_1/Makefile" target="run-demo" workingDirectory="" arguments="">
         <envs />
@@ -83,8 +84,15 @@
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/assignment_1/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.test" />
         <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.run-demo" />
       </list>
