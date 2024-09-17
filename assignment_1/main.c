@@ -114,7 +114,7 @@ int main()
     write_int(counter);
     write_char('\n');
 
-    // Print the final collection in the required format
+    // Print the final collection
     write_string("Collection: ");
     print_list(head);
 
